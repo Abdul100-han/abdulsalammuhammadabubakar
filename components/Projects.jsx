@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import AdminDImg from '../public/assets/projects/admin-dashboard.png';
+import AdminDImg from '../public/assets/projects/admin.png';
 import cryptoImg from '../public/assets/projects/crypto.png'
 import Drive from '../public/assets/projects/drive.png'
 import Data from '../public/assets/projects/data.png'
@@ -48,7 +48,7 @@ const Projects = () => {
           <ProjectItem
             title='DEFI'
             backgroundImg={Defi}
-            projectUrl='https://abdul100-han.github.io/defi-react-website/'
+            projectUrl='https://abdul100-han.github.io/defi-react-website'
             tech='React JS'
 
           />
@@ -56,28 +56,28 @@ const Projects = () => {
           <ProjectItem
             title='DRIVE'
             backgroundImg={Drive}
-            projectUrl='https://abdul100-han.github.io/react-car-website/'
+            projectUrl='https://abdul100-han.github.io/react-car-website'
             tech='React JS'
 
           />
            <ProjectItem
             title='Data Seucred Protection'
             backgroundImg={Data}
-            projectUrl='https://datasecure.abdulsalammuhammadabubakar.com.ng/'
+            projectUrl='https://datasecure.abdulsalammuhammadabubakar.com.ng'
             tech='React JS'
 
           />
           <ProjectItem
             title='School Management System'
             backgroundImg={SMS}
-            projectUrl='https://newmethodsacademyzaria.com.ng/'
+            projectUrl='https://newmethodsacademyzaria.com.ng'
             tech='WordPress'
 
           />
             <ProjectItem
             title='VTU Website'
             backgroundImg={VTU}
-            projectUrl='https://aruscodata.com/'
+            projectUrl='https://aruscodata.com'
             tech=''
 
           />
